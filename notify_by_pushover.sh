@@ -78,7 +78,7 @@ curl -F "token=$appToken" \
 -F "title=$title" \
 -F "message=$message" \
 -F "sound=$sound" \
--F "href=$href" \
+-F "url=$href" \
 -F "$priorityString" \
 https://api.pushover.net/1/messages
 
