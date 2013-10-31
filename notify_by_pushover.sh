@@ -43,7 +43,7 @@
 #	./notify_by_pushover.sh -u r5j7mjYjd -a noZ9KuR5T -s 'spacealarm' -t "server.pretendco.com" -m "DISK WARNING - free space: /dev/disk0s2 4784 MB"
 
 
-while getopts "u:a:t:m:p:s:w:c:o:" optionName; do
+while getopts "u:a:t:m:p:s:w:c:o:h:" optionName; do
 case "$optionName" in
 u) userKey=( "$OPTARG" );;
 a) appToken=( "$OPTARG" );;
